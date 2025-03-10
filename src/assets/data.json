@@ -15,7 +15,7 @@
                 "end" : "En poste"
             },
             "technology": ["Agile Method", "Ansible", "REST API", "Python", "Jira", "Linux", "GitLab CI", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
-            "description": "Développement d'un processus de montée de version automatique d'agent Dynatrace. \n Mise en application des méthodes Agiles. \n Réalisation du pipeline permettant l'automatisation du processus de montée de version de l'agent."
+            "description": "Suivi de production et gestion d'incident.\nDéveloppement d'outil lié a l'automatisation d'action (Déploiement, Construction de machine, enchainement d'action,...\nMise en production de fonctionnalité et/ou d'application.\nRéalisation de playbook de déploiement de matiere, de certificat,...\nRéférent sur l'APM Dynatrace"
         },
         {
             "name" : "Crédit Agricole Technologies et Services",
@@ -25,7 +25,7 @@
                 "end" : "2023-08-31"
             },
             "technology": ["Agile Method", "Jira", "Linux", "Jenkins", "Git", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
-            "description": "Développement d'un processus de montée de version automatique d'agent Dynatrace. \n Mise en application des méthodes Agiles. \n Réalisation du pipeline permettant l'automatisation du processus de montée de version de l'agent."
+            "description": "Développement d'un processus de montée de version automatique d'agent Dynatrace.\nMise en application des méthodes Agiles.\nRéalisation du pipeline permettant l'automatisation du processus de montée de version de l'agent."
         },
         {
             "name" : "Wevalgo",
@@ -35,7 +35,7 @@
                 "end" : "2021-06-01"
             },
             "technology": [ "PHP","HTML","CSS", "SQL", "Javascript"],
-            "description": "Ajout de nouvelles fonctionnalités sur le site en ligne. \n Implémentation d'un systmème de versioning dans les différentes fonctionnalités. \n Refonte graphique du site. \n Support sur le site."
+            "description": "Ajout de nouvelles fonctionnalités sur le site en ligne.\nImplémentation d'un systmème de versioning dans les différentes fonctionnalités.\nRefonte graphique du site.\nSupport sur le site."
         }
     ],
     "degree" : [
