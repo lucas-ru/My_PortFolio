@@ -1,1 +1,22 @@
-<p>experience works!</p>
+<div class="experience">
+    <h1 class="titre">Mon expérience</h1>
+    <div *ngFor="let item of exp">
+            <div>
+                {{ item.name }}
+            </div>
+            <div>
+                {{ item.description }}
+            </div>
+            <div>
+                {{ item.location }}
+            </div>
+            <div>
+                {{ item.duration.start }} - {{ item.duration.end }}
+            </div>
+            <div *ngFor="let tech of item.technology">
+                <div>
+                    {{ tech }}
+                </div>
+            </div>
+    </div>
+</div>

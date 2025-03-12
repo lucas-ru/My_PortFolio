@@ -1,86 +1,87 @@
-{
-    "name": "Plume",
-    "surname" : "lucas",
-    "birthday": "31/08/2000",
-    "mail": "Lucas.ru74@gmail.com",
-    "phone" : "06.29.39.83.65",
-    "Github" : "https://github.com/lucas-ru",
-    "languages": "Francais,Anglais",
-    "experience": [
-        {
-            "name" : "Crédit Agricole Group Infrastructure Plateform",
-            "location" : "Annecy, France",
-            "duration" : {
-                "start" : "2023-10-01",
-                "end" : "En poste"
+[
+    {
+        "name": "Plume",
+        "surname" : "lucas",
+        "birthday": "31/08/2000",
+        "mail": "Lucas.ru74@gmail.com",
+        "phone" : "06.29.39.83.65",
+        "Github" : "https://github.com/lucas-ru",
+        "languages": "Francais,Anglais",
+        "experience": [
+            {
+                "name" : "Crédit Agricole Group Infrastructure Plateform",
+                "location" : "Annecy, France",
+                "duration" : {
+                    "start" : "2023-10-01",
+                    "end" : "En poste"
+                },
+                "technology": ["Agile Method", "Ansible", "REST API", "Python", "Jira", "Linux", "GitLab CI", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
+                "description": "Suivi de production et gestion d'incident.\nDéveloppement d'outil lié a l'automatisation d'action (Déploiement, Construction de machine, enchainement d'action,...\nMise en production de fonctionnalité et/ou d'application.\nRéalisation de playbook de déploiement de matiere, de certificat,...\nRéférent sur l'APM Dynatrace"
             },
-            "technology": ["Agile Method", "Ansible", "REST API", "Python", "Jira", "Linux", "GitLab CI", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
-            "description": "Suivi de production et gestion d'incident.\nDéveloppement d'outil lié a l'automatisation d'action (Déploiement, Construction de machine, enchainement d'action,...\nMise en production de fonctionnalité et/ou d'application.\nRéalisation de playbook de déploiement de matiere, de certificat,...\nRéférent sur l'APM Dynatrace"
-        },
-        {
-            "name" : "Crédit Agricole Technologies et Services",
-            "location" : "Annecy, France",
-            "duration" : {
-                "start" : "2021-09-01",
-                "end" : "2023-08-31"
+            {
+                "name" : "Crédit Agricole Technologies et Services",
+                "location" : "Annecy, France",
+                "duration" : {
+                    "start" : "2021-09-01",
+                    "end" : "2023-08-31"
+                },
+                "technology": ["Agile Method", "Jira", "Linux", "Jenkins", "Git", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
+                "description": "Développement d'un processus de montée de version automatique d'agent Dynatrace.\nMise en application des méthodes Agiles.\nRéalisation du pipeline permettant l'automatisation du processus de montée de version de l'agent."
             },
-            "technology": ["Agile Method", "Jira", "Linux", "Jenkins", "Git", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
-            "description": "Développement d'un processus de montée de version automatique d'agent Dynatrace.\nMise en application des méthodes Agiles.\nRéalisation du pipeline permettant l'automatisation du processus de montée de version de l'agent."
-        },
-        {
-            "name" : "Wevalgo",
-            "location" : "Annecy, France",
-            "duration" : {
-                "start" : "2020-04-01",
-                "end" : "2021-06-01"
+            {
+                "name" : "Wevalgo",
+                "location" : "Annecy, France",
+                "duration" : {
+                    "start" : "2020-04-01",
+                    "end" : "2021-06-01"
+                },
+                "technology": [ "PHP","HTML","CSS", "SQL", "Javascript"],
+                "description": "Ajout de nouvelles fonctionnalités sur le site en ligne.\nImplémentation d'un systmème de versioning dans les différentes fonctionnalités.\nRefonte graphique du site.\nSupport sur le site."
+            }
+        ],
+        "degree" : [
+            {
+                "name" : "MBA Développeur Full-stack",
+                "location" : "MyDigitalSchool - Annecy, France",
+                "duration" : {
+                    "start" : "2021-09-01",
+                    "end" : "2023-08-31"
+                }
             },
-            "technology": [ "PHP","HTML","CSS", "SQL", "Javascript"],
-            "description": "Ajout de nouvelles fonctionnalités sur le site en ligne.\nImplémentation d'un systmème de versioning dans les différentes fonctionnalités.\nRefonte graphique du site.\nSupport sur le site."
-        }
-    ],
-    "degree" : [
-        {
-            "name" : "MBA Développeur Full-stack",
-            "location" : "MyDigitalSchool - Annecy, France",
-            "duration" : {
-                "start" : "2021-09-01",
-                "end" : "2023-08-31"
+            {
+                "name" : "Licence profesionnel DIM - Développement Informatique Multi-Support",
+                "location" : "Université Savoie Mont-Blanc / CCI - Annecy, France",
+                "duration" : {
+                    "start" : "2020-09-01",
+                    "end" : "2021-08-31"
+                }
+            },
+            {
+                "name" : "DUT Informatique",
+                "location" : "Université Savoie Mont-Blanc / IUT Annecy - Annecy-le-Vieux, France",
+                "duration" : {
+                    "start" : "2018-09-01",
+                    "end" : "2020-08-31"
+                }
             }
-        },
-        {
-            "name" : "Licence profesionnel DIM - Développement Informatique Multi-Support",
-            "location" : "Université Savoie Mont-Blanc / CCI - Annecy, France",
-            "duration" : {
-                "start" : "2020-09-01",
-                "end" : "2021-08-31"
+        ],
+        "miscellaneous" : [
+            {
+                "name" : "Sport",
+                "description": "Street Workout,Randonnée,Course"
+            },
+            {
+                "name" : "Lecture",
+                "description": "Science-Fiction,Philosophie,Fantaisie,Manga"
+            },
+            {
+                "name" : "Moto",
+                "description" : "Permis A"
+            },
+            {
+                "name" : "Voyage",
+                "description" : "Europe, Japon, Corée du Sud, Pays Nordique, ..."
             }
-        },
-        {
-            "name" : "DUT Informatique",
-            "location" : "Université Savoie Mont-Blanc / IUT Annecy - Annecy-le-Vieux, France",
-            "duration" : {
-                "start" : "2018-09-01",
-                "end" : "2020-08-31"
-            }
-        }
-    ],
-    "miscellaneous" : [
-        {
-            "name" : "Sport",
-            "description": "Street Workout,Randonnée,Course"
-        },
-        {
-            "name" : "Lecture",
-            "description": "Science-Fiction,Philosophie,Fantaisie,Manga"
-        },
-        {
-            "name" : "Moto",
-            "description" : "Permis A"
-        },
-        {
-            "name" : "Voyage",
-            "description" : "Europe, Japon, Corée du Sud, Pays Nordique, ..."
-        }
-    ]
-
-}
+        ]
+    }
+]
