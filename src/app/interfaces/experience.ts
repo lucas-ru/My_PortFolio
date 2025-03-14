@@ -5,6 +5,7 @@ export interface Experience {
         start: string,
         end: string
     },
+    img: string,
     technology: string,
     description: string
 }

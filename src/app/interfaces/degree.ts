@@ -4,5 +4,6 @@ export interface Degree {
     duration: {
         start: string,
         end: string
-    }
+    },
+    img: string
 }

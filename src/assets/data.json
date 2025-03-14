@@ -15,8 +15,9 @@
                     "start" : "2023-10-01",
                     "end" : "En poste"
                 },
+                "img": "/images/CAGIP.png",
                 "technology": ["Agile Method", "Ansible", "REST API", "Python", "Jira", "Linux", "GitLab CI", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
-                "description": "Suivi de production et gestion d'incident.\nDéveloppement d'outil lié a l'automatisation d'action (Déploiement, Construction de machine, enchainement d'action,...\nMise en production de fonctionnalité et/ou d'application.\nRéalisation de playbook de déploiement de matiere, de certificat,...\nRéférent sur l'APM Dynatrace"
+                "description": "Suivi de production et gestion d'incident.\nDéveloppement d'outil lié a l'automatisation d'action (Déploiement, Construction de machine, enchainement d'action,...;\nMise en production de fonctionnalité et/ou d'application.\nRéalisation de playbook de déploiement de matiere, de certificat,...\nRéférent sur l'APM Dynatrace"
             },
             {
                 "name" : "Crédit Agricole Technologies et Services",
@@ -25,6 +26,7 @@
                     "start" : "2021-09-01",
                     "end" : "2023-08-31"
                 },
+                "img": "/images/CATS.png",
                 "technology": ["Agile Method", "Jira", "Linux", "Jenkins", "Git", "Automation", "Testing", "Dynatrace", "Monitoring", "Docker", "k8s"],
                 "description": "Développement d'un processus de montée de version automatique d'agent Dynatrace.\nMise en application des méthodes Agiles.\nRéalisation du pipeline permettant l'automatisation du processus de montée de version de l'agent."
             },
@@ -35,6 +37,7 @@
                     "start" : "2020-04-01",
                     "end" : "2021-06-01"
                 },
+                "img": "/images/Wevalgo.png",
                 "technology": [ "PHP","HTML","CSS", "SQL", "Javascript"],
                 "description": "Ajout de nouvelles fonctionnalités sur le site en ligne.\nImplémentation d'un systmème de versioning dans les différentes fonctionnalités.\nRefonte graphique du site.\nSupport sur le site."
             }
@@ -46,7 +49,8 @@
                 "duration" : {
                     "start" : "2021-09-01",
                     "end" : "2023-08-31"
-                }
+                },
+                "img": "/images/MDS.png"
             },
             {
                 "name" : "Licence profesionnel DIM - Développement Informatique Multi-Support",
@@ -54,7 +58,8 @@
                 "duration" : {
                     "start" : "2020-09-01",
                     "end" : "2021-08-31"
-                }
+                },
+                "img": "/images/CCI.png"
             },
             {
                 "name" : "DUT Informatique",
@@ -62,7 +67,8 @@
                 "duration" : {
                     "start" : "2018-09-01",
                     "end" : "2020-08-31"
-                }
+                },
+                "img": "/images/PHOTO"
             }
         ],
         "miscellaneous" : [
