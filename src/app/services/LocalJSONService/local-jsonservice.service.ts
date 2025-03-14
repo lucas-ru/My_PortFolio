@@ -3,6 +3,7 @@ import { Injectable  } from '@angular/core';
 import { map, Observable } from 'rxjs';
 import { me } from '../../interfaces/me'
 import { Experience } from '../../interfaces/experience';
+import { Degree } from '../../interfaces/degree';
 
 @Injectable({
   providedIn: 'root'
@@ -29,5 +30,13 @@ export class LocalJSONService {
       )
   }
 
-  
+  getDegreeLocalJSON$(): Observable<[Degree][]>{
+    return this.http
+      .get<me[]>(this.path)
+      .pipe(
+        map(data => data
+          .map(deg => deg.degree)
+        )
+      )
+  }
 }

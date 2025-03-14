@@ -1,1 +1,18 @@
-<p>degree works!</p>
+<h1 class="titre">Mes diplomes</h1>
+<div class="content">
+    <div class="card" *ngFor="let item of deg">
+        <img class="img_card" src="{{ item.img }}">
+        <div class="txt_card">
+            <div class="title_card">
+                {{ item.name }}
+            </div>
+            <div class="loc_card">
+                {{ item.location }}
+            </div>
+            <div class="dur_card">
+                {{ item.duration.start }} - {{ item.duration.end }}
+            </div>
+        </div>
+    </div>
+</div>
+

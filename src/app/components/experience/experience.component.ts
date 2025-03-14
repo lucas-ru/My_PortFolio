@@ -22,10 +22,6 @@ export class ExperienceComponent implements OnInit {
    )
   }
 
-  splitFunction(txt: string){
-    return txt.replace(";","</div>")
-  }
-
   ngOnInit() {
     this.getInfo()
   }
