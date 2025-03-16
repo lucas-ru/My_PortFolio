@@ -4,6 +4,7 @@ import { map, Observable } from 'rxjs';
 import { me } from '../../interfaces/me'
 import { Experience } from '../../interfaces/experience';
 import { Degree } from '../../interfaces/degree';
+import { Miscellaneous } from '../../interfaces/miscellaneous';
 
 @Injectable({
   providedIn: 'root'
@@ -36,6 +37,16 @@ export class LocalJSONService {
       .pipe(
         map(data => data
           .map(deg => deg.degree)
+        )
+      )
+  }
+
+  getMiscLocalJSON$(): Observable<[Miscellaneous][]>{
+    return this.http
+      .get<me[]>(this.path)
+      .pipe(
+        map(data => data
+          .map(misc => misc.miscellaneous)
         )
       )
   }

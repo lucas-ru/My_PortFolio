@@ -8,10 +8,10 @@ import { LocalJSONService } from '../../services/LocalJSONService/local-jsonserv
   templateUrl: './degree.component.html',
   styleUrl: './degree.component.scss'
 })
-export class DegreeComponent {
+export class DegreeComponent implements OnInit{
 
-  LocalJSON:any = []
-  deg: any
+  LocalJSON:any = [];
+  deg: any;
   
   constructor(public localJSON: LocalJSONService) {}
 

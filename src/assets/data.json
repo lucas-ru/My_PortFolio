@@ -2,11 +2,16 @@
     {
         "name": "Plume",
         "surname" : "lucas",
+        "description": "Bonjour,\n\n je préfère normalement discuter et échanger plutot que d'écrire mais je me dis qu'une petite introduction ne peut pas faire de mal.\n\n La question qui revient souvent est \"quelles sont tes qualités et tes défauts ?\".\n\n Voici un petit appercu de ma personne :\n\n Polyvalent -> J'aime découvrir et apprendre de nouvelle chose, et grâce a ca j'ai pu développer ma polyvalence. \n Serviable -> de par ma curiosité, j'aime aider les gens et leurs apporter mon expertise, de la même maniere que je recherche la leurs.\n Rigoureux -> Que ce soit professionnellement ou personnellement, j'aime être rigoureux dans ce que j'entreprends de facon à toujours donner le meilleur de moi-meme.\n \n Obstiné -> Ayant soif de connaissance, j'ai tendance à chercher jusqu'à avoir ma réponse, notamment lors que je développe. J'aime comprendre ce que je fais et pourquoi ca marche \n Bavard -> Je suis quelque peu loquace effectivement, j'aime échanger et parler. Je suis plutot extraverti au niveau de ma personnalité \n Fort caractère -> J'apprécie prendre des risques et des initiatives afin de faire évoluer les choses et d'avancer dans le cadre d'un projet par exemple. \n\n Je ne vous laisse maintenant découvrir mon Portefolio et vous invite a me contacter si vous avez la moindre question",
         "birthday": "31/08/2000",
         "mail": "Lucas.ru74@gmail.com",
+        "permis": "A et B",
         "phone" : "06.29.39.83.65",
+        "taille" : "1m77",
+        "poids" : "77kg",
+        "adress" : "5 avenue de gevrier \n 74960 Cran-Gevrier",
         "Github" : "https://github.com/lucas-ru",
-        "languages": "Francais,Anglais",
+        "languages": ["Francais","Anglais"],
         "experience": [
             {
                 "name" : "Crédit Agricole Group Infrastructure Plateform",
@@ -53,7 +58,7 @@
                 "img": "/images/MDS.png"
             },
             {
-                "name" : "Licence profesionnel DIM - Développement Informatique Multi-Support",
+                "name" : "Licence professionnel Développement Informatique Multi-Support",
                 "location" : "Université Savoie Mont-Blanc / CCI - Annecy, France",
                 "duration" : {
                     "start" : "2020-09-01",
@@ -74,19 +79,38 @@
         "miscellaneous" : [
             {
                 "name" : "Sport",
-                "description": "Street Workout,Randonnée,Course"
+                "description": "Street Workout, Randonnée, Course, ski,... Et a haute dose !",
+                "img": "/images/me.png"
             },
             {
                 "name" : "Lecture",
-                "description": "Science-Fiction,Philosophie,Fantaisie,Manga"
+                "description": "Science-Fiction, Philosophie, Fantaisie, Manga. Actuellement, je suis plutot philo",
+                "img": "/images/livre.png"
             },
             {
                 "name" : "Moto",
-                "description" : "Permis A"
+                "description" : "Permis A. Un petit penchant pour les 2 roues",
+                "img": "/images/Z900_SE.png"
             },
             {
                 "name" : "Voyage",
-                "description" : "Europe, Japon, Corée du Sud, Pays Nordique, ..."
+                "description" : "Europe, Japon, Corée du Sud, Pays Nordique, ...",
+                "img": "/images/voyage.png"
+            },
+            {
+                "name" : "Musique",
+                "description" : "Je fais surtout de la guitare, meme si j'ai deja fait du piano",
+                "img": "/images/guitare.png"
+            },
+            {
+                "name" : "Informatique",
+                "description" : "De la veille, j'aide aussi mes proches sur ce qui touche à l'informatique",
+                "img": "/images/Kernel.png"
+            },
+            {
+                "name" : "Sortie",
+                "description" : "Un principe fondammental : on ne refuse jamais une bonne bière",
+                "img": "/images/bar.png"
             }
         ]
     }

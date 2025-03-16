@@ -9,6 +9,7 @@ export interface me {
     mail: string,
     phone : string,
     Github : string,
+    permis : string,
     languages: string,
     experience: [Experience],
     degree: [Degree],
