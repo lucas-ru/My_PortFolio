@@ -1,0 +1,16 @@
+<h1 class="titre">Mes hobbies</h1>
+<div class="content">
+    <div class="card" *ngFor="let item of misc">
+        <div class="header_card">
+            <img class="img_card" src="{{ item.img }}">
+            <div class="right_card">
+                <div class="title_card">
+                    {{ item.name }}
+                </div>
+                <div class="desc_card">
+                    {{ item.description }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<h1 class="titre">Mon expérience</h1>
+<div class="content">
+    <div class="card" *ngFor="let item of exp">
+        <div class="header_card">
+            <img class="img_card" src="{{ item.img }}">
+            <div class="title_card">
+                {{ item.name }}
+            </div>
+        </div>
+        <div class="loc_card">
+            {{ item.location }}
+        </div>
+        <div class="dur_card">
+            {{ item.duration.start }} - {{ item.duration.end }}
+        </div>
+        <div class="desc_card">
+            {{ item.description }}
+        </div>
+        <div class="line"></div>
+        <div class="techno_card" >
+            <div class="elm_techno_card" *ngFor="let tech of item.technology">
+                {{ tech }}
+            </div>
+        </div>
+    </div>
+</div>

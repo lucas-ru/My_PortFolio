@@ -1,0 +1,29 @@
+.content{
+    background-color: rgba(29, 28, 28, 0.1);
+    margin: 0 5% 0 5%;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.desc{
+    white-space: pre-wrap;
+    line-height: 25px;
+}
+
+.right_part{
+    margin: 1%;
+    text-align: center;
+    width: 20%;
+}
+
+.right_elm{
+    flex: 1;
+    padding: 5px;
+    background-color: rgba($color: #a06916, $alpha: 0.6);
+    margin: 2% 5% 1% 5%;
+    text-align: center;
+    border-radius: 10px;
+}

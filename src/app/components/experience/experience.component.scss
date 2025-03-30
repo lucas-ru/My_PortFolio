@@ -1,0 +1,92 @@
+.titre{
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+.content{
+    margin: 3% 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: rgba(29, 28, 28, 0.3);
+    margin: 3px;
+    padding: 10px;
+    position: relative;
+}
+
+.header_card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.img_card{
+    width: 150px;
+    height: auto;
+}
+
+.title_card{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    font-weight: bold;
+    color: #a06916;
+}
+
+.loc_card, .dur_card{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.dur_card {
+    font-style: italic;
+}
+
+.desc_card{
+    margin-top: 10%;
+    padding: 3% 3% 0 3%;
+    white-space: pre-wrap;
+    width: 100%;
+    line-height: 21px;
+}
+
+.line {
+  height: 5px;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    #000000 2px,
+    #a06916 3px,
+    transparent 4px
+  );
+  margin: 10% 10% 3% 10%;
+}
+
+.techno_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px 10px 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.elm_techno_card{
+    flex: 1;
+    padding: 5px;
+    background-color: rgba($color: #a06916, $alpha: 0.6);
+    margin: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
