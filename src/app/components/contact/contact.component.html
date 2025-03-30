@@ -1,1 +1,22 @@
-<p>contact works!</p>
+<h1 class="titre">Contact</h1>
+<div class="content">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="form">
+        <div class="container">
+            <input class="input" required type="text" id="mail" formControlName="mail">
+            <label class="label">Mail *</label>
+        </div>
+        <div class="container">
+            <input class="input" required type="text" id="mail" formControlName="name">
+            <label class="label">Nom *</label>
+        </div>
+        <div class="container">
+            <input class="input" required type="text" id="sujet" formControlName="subject">
+            <label class="label">Sujet *</label>
+        </div>
+        <div class="container">
+            <input class="input" required type="text" id="description" formControlName="message">
+            <label class="label">Message *</label>
+        </div>
+        <button class="submit_form" type="submit" [disabled]="!contactForm.valid">Envoyer</button>
+    </form>
+</div>

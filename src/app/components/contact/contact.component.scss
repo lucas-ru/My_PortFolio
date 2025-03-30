@@ -1,0 +1,87 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+    width: 90%;
+    height: 80%;
+    align-items: center;
+}
+
+.submit_form{
+    background-color: #a06916;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 1px 0 darken(#a06916, 5%), 1px 1px 6px darken(#a06916, 5%);
+    margin-top: 1%;
+    transition: all 150ms linear;
+}
+
+.submit_form:hover{
+    background-color: #fff;
+    color: #a06916;
+    box-shadow: 2px 1px 2px rgba(#fff, .2);
+    transition: all 150ms linear;
+    cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  color: white;
+  margin: 2% 0 1% 0;
+}
+
+.label{
+    color: #a06916;
+    font-weight: bold;
+}
+
+.container .label {
+  font-size: 15px;
+  padding-left: 10px;
+  position: absolute;
+  top: 13px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input {
+  width: 300px;
+  height: 45px;
+  border: none;
+  outline: none;
+  padding: 0px 7px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  background-color: transparent;
+  box-shadow: 3px 3px 10px rgba(0,0,0,1),
+  -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+
+.input:focus {
+  border: 2px solid transparent;
+  color: #fff;
+  box-shadow: 3px 3px 10px rgba(0,0,0,1),
+  -1px -1px 6px rgba(255, 255, 255, 0.4),
+  inset 3px 3px 10px rgba(0,0,0,1),
+  inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+
+.container .input:valid ~ .label,
+.container .input:focus ~ .label {
+  transition: 0.3s;
+  padding-left: 2px;
+  transform: translateY(-35px);
+}
+
+.container .input:valid,
+.container .input:focus {
+  box-shadow: 3px 3px 10px rgba(0,0,0,1),
+  -1px -1px 6px rgba(255, 255, 255, 0.4),
+  inset 3px 3px 10px rgba(0,0,0,1),
+  inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
