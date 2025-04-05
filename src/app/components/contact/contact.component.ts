@@ -22,7 +22,7 @@ export class ContactComponent{
   constructor(private emailService: EmailService, private popup: PopupComponent) {}
 
   onSubmit() {
-    // this.emailService.sendEmail(this.contactForm.value.mail,this.contactForm.value.name, this.contactForm.value.subject, this.contactForm.value.message);
+    this.emailService.sendEmail(this.contactForm.value.mail,this.contactForm.value.name, this.contactForm.value.subject, this.contactForm.value.message);
 
     this.contactForm.reset();
     this.popup.openSnackBar();
