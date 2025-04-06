@@ -114,7 +114,7 @@ input[type="checkbox"]:checked ~ label .middle {
   margin: 0 auto;
 }
 
-label {
+label.OpenMenu {
   top: 10px;
   left: 10px;
   display: inline-block;
@@ -177,6 +177,12 @@ p {
   }
 
   .aside-right {
-    width: 15%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .aside-section{
+    position: fixed;
   }
 }

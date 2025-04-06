@@ -42,3 +42,11 @@
 .dur_card{
     font-style: italic;
 }
+
+@media (max-width: 750px) {
+    .img_card{
+      width: auto;
+      height: 50px;
+      margin-top: 10%;
+    }
+  }

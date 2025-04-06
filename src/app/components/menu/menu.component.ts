@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 
@@ -10,5 +11,4 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   standalone: true,
 })
 export class MenuComponent {
-
 }
