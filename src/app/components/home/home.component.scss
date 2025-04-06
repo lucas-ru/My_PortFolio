@@ -149,4 +149,23 @@
     visibility: hidden; 
   }
 }
-  
+
+@media (max-width: 500px) {
+  .titre{
+    font-size: 35px;
+  }
+  .content{
+    font-size: 20px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 500px) {
+  .titre{
+    font-size: 50px;
+  }
+  .content{
+    font-size: 25px;
+    width: 80%;
+  }
+}
