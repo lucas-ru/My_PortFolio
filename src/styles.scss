@@ -20,7 +20,6 @@ html {
 }
 
 body{
-    background-color: black;
     width: 99%;
     height: 100%;
 }
@@ -31,5 +30,26 @@ body{
     margin-top: 5%;
     text-decoration: underline;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { 
+  height: 100%; 
+}
+
+body { 
+  margin: 0; 
+  font-family: Roboto, 
+  "Helvetica Neue", 
+  sans-serif; 
+}
+
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient( #000000  30%, #492f08 50%, #000000 70%);
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: #000000;
+  }
+}
